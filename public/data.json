@@ -3,7 +3,7 @@
     "id": "6334678265a37789862ce6f2",
     "name": "Treadmill",
     "image": "https://images.unsplash.com/photo-1652364653960-1c23c208ef43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
-    "about": "Nisi ex culpa ut velit nulla ipsum sit culpa ea excepteur occaecat consectetur.",
+    "about": "How long should a beginner run on a treadmill Start by running for 20 minutes at a time, three times per week.",
     "age": "20-25",
     "timeReq": 10
   },
@@ -11,7 +11,7 @@
     "id": "63346782cff987b6007db674",
     "name": "Stationary bicycle",
     "image": "https://img.freepik.com/premium-photo/people-doing-indoor-cycling_23-2149270263.jpg",
-    "about": "Sint est aute id id. Sint sunt eiusmod sint veniam amet sit veniam cillum enim.",
+    "about": "Start with a 25- to 35-minute workout and progress from there, adding time in 1-minute increments as you build up your fitness.",
     "age": "20-25",
     "timeReq": 20
   },
@@ -19,7 +19,7 @@
     "id": "63346782abac9480e3fd9122",
     "name": "Dumbbell",
     "image": "https://images.unsplash.com/photo-1652364690376-db27a1965bc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
-    "about": "Pariatur culpa cupidatat sunt magna Lorem quis enim et proident. Ut mollit nostrud qui proident",
+    "about": "More suggests keeping it simple and choosing light dumbbells—ideally between five and 10 pounds.",
     "age": "20-25",
     "timeReq": 30
   },
@@ -27,7 +27,7 @@
     "id": "63346782d354348887f7b1c9",
     "name": "Smith machine",
     "image": "https://cdn.pixabay.com/photo/2013/03/09/14/38/gym-91849_960_720.jpg",
-    "about": "Amet irure do ipsum amet ut duis ut excepteur magna amet. Veniam aute mollit occaecat.",
+    "about": "The typical starting weight of a barbell on a Smith Machine can be expected to weight about 15-30 lbs.",
     "age": "30-35",
     "timeReq": 40
   },
@@ -35,7 +35,7 @@
     "id": "633467829c2e370b7669c88a",
     "name": "Leg curl",
     "image": "https://img.freepik.com/free-photo/strong-legs-exercising-couple_329181-14159.jpg?w=996&t=st=1664384955~exp=1664385555~hmac=e625686e6f8db8de2a50089663ed4a8a2aeb2fd065cbf00718c0f84f59930277",
-    "about": "Pariatur eiusmod excepteur officia amet do sit aliqua aliquip exercitation esse.",
+    "about": "For a seated leg extension with ankle weights, start with 5-pound weights and progress only to 10-pound weights.",
     "age": "30-35",
     "timeReq": 50
   },
@@ -43,7 +43,7 @@
     "id": "633467822edde736bcea618d",
     "name": "Pull-down",
     "image": "https://img.freepik.com/free-photo/concept-power-strength-healthy-lifestyle-sport-powerful-attractive-muscular-man-gym_155003-4993.jpg?w=996&t=st=1664385113~exp=1664385713~hmac=bba7312766148fdc067fd572ef17dc8234069fbf9948d8f019b992cad63d4882",
-    "about": "Ullamco velit magna tempor pariatur elit. Pariatur laboris eu excepteur nostrud.",
+    "about": "Start by programming three to five sets of 10-15 repetitions with moderate to heavy loads OR two to four sets of 15-25 repetitions",
     "age": "35-40",
     "timeReq": 20
   },
@@ -51,7 +51,7 @@
     "id": "63346782b2217dd6da319b4b",
     "name": "Rowing machine",
     "image": "https://cdn.pixabay.com/photo/2017/08/16/11/05/gym-2647326_960_720.jpg",
-    "about": "Quis cupidatat non et proident. Id sunt fugiat tempor minim tempor in amet sunt aliqua.",
+    "about": " Row for a minimum of 5 minutes and a maximum of 20 minutes when starting out. Keep a log of what you do each week",
     "age": "35-40",
     "timeReq": 30
   },
@@ -59,7 +59,7 @@
     "id": "633467824ba80a34769c9fa0",
     "name": "Barbells",
     "image": "https://img.freepik.com/free-photo/strong-man-training-gym_1303-23478.jpg?w=996&t=st=1664384747~exp=1664385347~hmac=84a6a4b66b533c1c25502fbbaf7c59bad6b7b30e6c0acb3f8dabd9b3645e9b7d",
-    "about": "Ut nostrud pariatur nostrud ea. Fugiat deserunt magna id quis eu culpa. Pariatur fugiat.",
+    "about": "start with a weight that you can lift 10 to 15 times with proper form. Begin with 1 or 2 sets of 10 to 15 repetitions, and slowly progress to 3 sets",
     "age": "45-50",
     "timeReq": 40
   },
@@ -67,7 +67,7 @@
     "id": "63346782669f287380fd4fb4",
     "name": "Abdominal roller",
     "image": "https://images.unsplash.com/photo-1626337920103-ae64b9c688e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=566&q=80",
-    "about": "Deserunt elit irure ullamco commodo sunt enim ea officia. Lorem consequat qui nisi.",
+    "about": "Depending on your strength, you should aim to complete anywhere from 6-12 reps for 3-4 sets of the ab wheel rollout.",
     "age": "45-50",
     "timeReq": 10
   }
