@@ -1,8 +1,8 @@
 import React from 'react';
 import './ExerciseList.css';
 
-const ExerciseList = ({equipment, exerciseTime}) => {
-    const { name, image, age, about, timeReq } = equipment;
+const ExerciseList = ({ equipment, exerciseTime, btnColor }) => {
+    const {name, image, age, about, timeReq } = equipment;
     return (
         <div>
             <div className="card h-full card-compact bg-slate-700 drop-shadow-2xl">
@@ -13,7 +13,7 @@ const ExerciseList = ({equipment, exerciseTime}) => {
                     <p className='text-start text-base font-bold mt-3 text-white'>For Age: {age}</p>
                     <p className='text-start mb-4 text-base font-bold text-white'>Time Required: {timeReq}s</p>
                     <div className="card-actions w-full">
-                        <button onClick={exerciseTime} className="btn btn-primary w-full text-white">Add to List</button>
+                        <button style={{backgroundColor: btnColor ? '#FFF' : '#000'}} onClick={exerciseTime} className="btn btn-primary w-full text-white">Add to List</button>
                     </div>
                 </div>
             </div>

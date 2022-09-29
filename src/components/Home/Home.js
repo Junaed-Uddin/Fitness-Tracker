@@ -6,6 +6,7 @@ import './Home.css';
 const Home = () => {
     const [equipments, setEquipments] = useState([]);
     const [carts, setCart] = useState([]);
+    const [btnColor, setBtnColor] = useState(false);
 
     useEffect(() => {
         fetch('data.json')
@@ -17,7 +18,11 @@ const Home = () => {
     const addToCart = selectedEquipment => {
         const newEquipment = [...carts, selectedEquipment];
         setCart(newEquipment);
+        btnColorChange();
     }
+
+    const btnColorChange = () => setBtnColor(!btnColor);
+    console.log(btnColor);
 
     return (
         <div>
@@ -27,7 +32,7 @@ const Home = () => {
                     <p className='text-start text-white font-bold mb-10 text-xl ml-5 sm:ml-10'>Choose Self Burning Exercise</p>
                     <div className='exerciseList grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 sm:mr-5 lg:ml-10 ml-3 sm:ml-5 mr-3'>
                         {
-                            equipments.map(equipment => <ExerciseList key={equipment.id} equipment={equipment} exerciseTime={() => addToCart(equipment)}></ExerciseList>)
+                            equipments.map(equipment => <ExerciseList key={equipment.id} equipment={equipment} btnColor={btnColor} exerciseTime={() => addToCart(equipment)}></ExerciseList>)
                         }
                     </div>
                 </div>
