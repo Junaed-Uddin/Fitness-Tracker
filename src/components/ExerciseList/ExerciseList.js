@@ -1,7 +1,7 @@
 import React from 'react';
 import './ExerciseList.css';
 
-const ExerciseList = ({ equipment, exerciseTime, btnColor }) => {
+const ExerciseList = ({ equipment, exerciseTime }) => {
     const {name, image, age, about, timeReq } = equipment;
     return (
         <div>
@@ -13,7 +13,7 @@ const ExerciseList = ({ equipment, exerciseTime, btnColor }) => {
                     <p className='text-start text-base font-bold mt-3 text-white'>For Age: {age}</p>
                     <p className='text-start mb-4 text-base font-bold text-white'>Time Required: {timeReq}s</p>
                     <div className="card-actions w-full">
-                        <button style={{backgroundColor: btnColor ? '#FFF' : '#000'}} onClick={exerciseTime} className="btn btn-primary w-full text-white">Add to List</button>
+                        <button onClick={exerciseTime} className="btn btn-black btn-outline- w-full text-white">Add to List</button>
                     </div>
                 </div>
             </div>
