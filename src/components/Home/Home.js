@@ -24,7 +24,7 @@ const Home = () => {
         <div>
             <div className='flex flex-wrap sm:flex-nowrap'>
                 <div className=''>
-                    <div className='mt-14 flex mb-5 sm:ml-5'>
+                    <div className='mt-5 flex mb-5 sm:ml-5'>
                         <img className='w-24' src={gym} alt="" />
                         <h2 className='text-3xl text-sky-500 mt-8 text-start font-bold'>Fitness Tracker</h2>
                     </div>
