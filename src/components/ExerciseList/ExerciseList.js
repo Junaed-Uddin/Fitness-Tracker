@@ -1,5 +1,7 @@
 import React from 'react';
 import './ExerciseList.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 
 const ExerciseList = ({ equipment, exerciseTime }) => {
     const {name, image, age, about, timeReq } = equipment;
@@ -13,7 +15,7 @@ const ExerciseList = ({ equipment, exerciseTime }) => {
                     <p className='text-start text-base font-bold mt-3 text-white'>For Age: {age}</p>
                     <p className='text-start mb-4 text-base font-bold text-white'>Time Required: {timeReq}s</p>
                     <div className="card-actions w-full">
-                        <button onClick={exerciseTime} className="btn btn-black btn-outline- w-full text-white">Add to List</button>
+                        <button onClick={exerciseTime} className="btn btn-black w-full text-white"><p className='mx-3'>Add to List <FontAwesomeIcon className='mx-1 text-base' icon={faPlusCircle} /></p></button>
                     </div>
                 </div>
             </div>

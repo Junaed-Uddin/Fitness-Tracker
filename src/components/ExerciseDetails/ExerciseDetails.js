@@ -3,7 +3,7 @@ import './ExerciseDetails.css';
 import user from '../../user.jpg';
 import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocation } from '@fortawesome/free-solid-svg-icons';
+import { faLocation, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 const ExerciseDetails = ({ carts }) => {
     const [breakTime, setBreakTime] = useState(0);
@@ -82,7 +82,7 @@ const ExerciseDetails = ({ carts }) => {
                     </div>
                 </div>
                 <div className='card-actions w-full'>
-                    <button onClick={activity} className='btn my-5 w-9/12 mx-auto text-white'>Activity Completed</button>
+                    <button onClick={activity} className='btn my-5 mx-auto text-white'><p className=''><FontAwesomeIcon className='mx-1 text-base' icon={faCheckCircle} /> Activity Completed </p></button>
                 </div>
             </div>
         </div>
