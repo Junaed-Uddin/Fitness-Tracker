@@ -13,7 +13,7 @@ const ExerciseList = ({equipment, exerciseTime}) => {
                     <p className='text-start text-base font-bold text-white'>For Age: {age}</p>
                     <p className='text-start mb-4 text-base font-bold text-white'>Time Required: {timeReq}s</p>
                     <div className="card-actions w-full">
-                        <button onClick={exerciseTime} className="btn btn-primary w-full text-white">Add to Cart</button>
+                        <button onClick={exerciseTime} className="btn btn-primary w-full text-white">Add to List</button>
                     </div>
                 </div>
             </div>
